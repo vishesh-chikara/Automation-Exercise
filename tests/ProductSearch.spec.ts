@@ -18,7 +18,7 @@ test("to validate Product Search ", async ({ page }) => {
     //creating object for AddProduct
     const addProduct = new AddProduct(page);
     await expect(page).toHaveURL("https://automationexercise.com/products");
-    await addProduct.searchProduct("Jeans")
+    await addProduct.searchProduct("Tshirt");
     await addProduct.clickOnSearchButton();
     await addProduct.openViewProduct();
     await addProduct.addToCart();
