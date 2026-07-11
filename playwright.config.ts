@@ -12,9 +12,9 @@ workers: 1,
 
   reporter: [
     ['html'],
+    ['list'],
     ['allure-playwright'],
-    ['dot'],
-    ['list']
+    ['dot']
   ],
 
   use: {
