@@ -6,7 +6,7 @@ import { testConfig } from '../test.config';
 import { AddProduct } from '../pages/addProduct';
 import { HomePage } from '../pages/HomePage';
 
-test("to validate Product Search ", async ({ page }) => {
+test("to validate the Product Search ", async ({ page }) => {
     //creating object for TestConfig
     const Config = new testConfig();
     await page.goto(Config.appUrl);

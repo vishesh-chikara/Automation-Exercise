@@ -7,7 +7,7 @@ import { AddProduct } from '../pages/addProduct';
 import { HomePage } from '../pages/HomePage';
 import { ProductViaCategory } from '../pages/ProductVia_Catogory';
 
-test("to validate Product Search via Category ", async ({ page }) => {
+test("to validate the Product Search via Category ", async ({ page }) => {
     //creating object for TestConfig
     const Config = new testConfig();
     await page.goto(Config.appUrl); 
