@@ -8,7 +8,7 @@ import { testConfig } from '../test.config';
 import { NewAcc_Info } from '../pages/registraionInfo';
 
 
-test("to Register a new user ", async ({ page }) => {
+test("create a new Registration for a user ", async ({ page }) => {
   //creating object for TestConfig
   const Config = new testConfig();
   await page.goto(Config.appUrl);
